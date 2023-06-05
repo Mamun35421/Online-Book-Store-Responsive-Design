@@ -580,6 +580,7 @@ color: #fff;
     border: var(--border);
     padding: 2rem;
     text-align: center;
+    margin: 2rem;
 }
 
 .reviews .reviews-slider .box:hover{
@@ -610,6 +611,49 @@ color: #fff;
     color: var(--green);
 }
 
+.blogs .blog-slider .box{
+    margin: 2rem 0;
+    width: 30rem;
+    border: var(--border);
+}
+
+
+.blogs .blog-slider .box:hover{
+    border: var(--border-hover);
+}
+
+.blogs .blog-slider .box .image{
+    height:25rem;
+    width: 100%;
+    object-fit: hidden;
+}
+.blogs .blog-slider .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogs .blog-slider .box:hover .image img{
+    transform: scale(1.1);
+ 
+}
+
+.blogs .blog-slider .box .content{
+    padding: 1.5rem;
+}
+
+.blogs .blog-slider .box .content h3{
+    font-size: 2.2rem;
+    color: var(--black);
+ 
+}
+.blogs .blog-slider .box .content p{
+    font-size: 1.4rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+    line-height: 2;
+ 
+}
 
 
 
